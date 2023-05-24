@@ -15,9 +15,9 @@ from joblib import dump, load
 from sklearn.feature_extraction.text import CountVectorizer
 from unidecode import unidecode
 import contractions 
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('WordNetLemmatizer')
+#nltk.download('stopwords')
+#nltk.download('wordnet')
+#nltk.download('WordNetLemmatizer')
 
 app = Flask(__name__)
 
